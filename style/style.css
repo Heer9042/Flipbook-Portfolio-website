@@ -150,7 +150,7 @@ body {
 }
 
 .profile-page p {
-    text-align: justify;
+    text-align: center;
 }
 
 .profile-page .btn-box {
@@ -427,4 +427,16 @@ body {
     opacity: 1;
     transform: translateX(-50%) scale(1);
     top: -1.8rem;
+}
+.certificate-course-box {
+    text-align: center;
+    border-left: none; /* Remove left border */
+}
+
+.certificate-course-box .edu-content {
+    padding-left: 0; /* Remove left padding */
+}
+
+.certificate-course-box .edu-content::before {
+    display: none; /* Remove the circle before content */
 }
